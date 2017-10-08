@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/bottombaritem1"
+        android:title="Home"
+        android:icon="@drawable/ic_menu_gallery"
+        />
+
+    <item android:id="@+id/bottombaritem2"
+        android:title="Appointments"
+        android:icon="@drawable/ic_menu_manage"/>
+
+    <item android:id="@+id/bottombaritem3"
+        android:title="Report"
+        android:icon="@drawable/ic_menu_slideshow"/>
+
+    <item android:id="@+id/bottombaritem4"
+        android:title="Settings"
+        android:icon="@drawable/ic_menu_share"/>
+</menu>

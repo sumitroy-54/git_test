@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumitroy.uicheck.MenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:cardCornerRadius="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="98dp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/cardview1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haircut By Stylist"
+            android:padding="25dp"
+            android:id="@+id/textviewHaircutStylist"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Rs.600"
+            android:id="@+id/Price1"
+            android:padding="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:cardCornerRadius="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_below="@+id/cardview1"
+        android:id="@+id/cardview2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haircut By Senior"
+            android:padding="25dp"
+            android:id="@+id/textviewHaircutSenior"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Rs.750"
+            android:id="@+id/Price2"
+            android:padding="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/textviewBangalore"
+            />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:cardCornerRadius="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_below="@+id/cardview2"
+        android:id="@+id/cardview3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service No 3"
+            android:padding="25dp"
+            android:id="@+id/textviewService3"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Rs.500"
+            android:id="@+id/Price3"
+            android:padding="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/textviewBangalore"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:cardCornerRadius="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_below="@+id/cardview3"
+        android:id="@+id/cardview4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service No 4"
+            android:padding="25dp"
+            android:id="@+id/textviewService4"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Rs.1600"
+            android:id="@+id/Price4"
+            android:padding="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/textviewBangalore"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:cardCornerRadius="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_below="@+id/cardview4"
+        android:id="@+id/cardview5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service No 3"
+            android:padding="25dp"
+            android:id="@+id/textviewService5"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Rs.6000"
+            android:id="@+id/Price5"
+            android:padding="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/textviewBangalore"
+            />
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>

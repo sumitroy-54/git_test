@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumitroy.uicheck.ScreenSix">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.example.sumitroy.uicheck.ScreenFive">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Name"
+        android:id="@+id/Mobile"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/shape"
+        />
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Number"
+        android:id="@+id/Address"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/Mobile"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        />
+
+    <Spinner
+        android:entries="@array/Something1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:padding="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/Address"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nothing"
+            android:id="@+id/radioButton1"
+            android:layout_below="@+id/Highlight_options"
+            android:padding="5dp"
+            android:checked="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:id="@+id/radioButton2"
+            android:layout_below="@+id/Highlight_options"
+            android:padding="5dp"
+            />
+
+
+
+    </RadioGroup>
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/rgOptions"
+        android:layout_alignStart="@+id/rgOptions"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="48dp"
+            android:id="@+id/addtocart"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/mybutton"
+            android:text="ADD TO CART"
+            android:textColor="#ffffff"
+            android:clickable="true"
+            />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="48dp"
+            android:id="@+id/checkout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/mybutton"
+            android:text="CHECKOUT"
+            android:textColor="#ffffff"
+            android:clickable="true"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

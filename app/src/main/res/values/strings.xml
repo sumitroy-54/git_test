@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UICheck</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Something">
+    <item>Select Category</item>
+    <item>Something</item>
+    <item>Something</item>
+    <item>Something</item>
+    <item>Something</item>
+</string-array>
+
+    <string-array name="Something1">
+        <item>Service</item>
+        <item>Hair</item>
+        <item>Nails</item>
+        <item>Color</item>
+        <item>Skin</item>
+    </string-array>
+</resources>
